@@ -24,7 +24,7 @@
         $defaults = array(
           'theme_location' => 'primary',
           'container' => false
-        )
+        );
         wp_nav_menu( $defaults );
       ?>
 	</div> 
