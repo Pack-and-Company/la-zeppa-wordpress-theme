@@ -51,7 +51,7 @@
 	background: url(../images/nav_bg_over.jpg) repeat-x top left; 
 }
 	
-#nav li.current-menu-item {
+#nav li.current-menu-item a {
 	color: #222;	
 	padding: 0 22px;
 	background:#fff; 
