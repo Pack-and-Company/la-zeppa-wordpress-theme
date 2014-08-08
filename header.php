@@ -14,8 +14,8 @@
   <meta name="description" content="La Zeppa - the ultimate meeting place where you decide how you want your night to go. 33 Drake Street Freemans Bay Auckland." />
   <meta name="keywords" content="La Zeppa, La Zeppa Restaurant, Restaurant, Drake Street Auckland, Auckland, Freemans Bay Street, Tapas, DJ's, Music, Women, Functions, Fine dining, Fine Wine, Industrial,  Cold Tapas, Hot Tapas, Cocktails" />
   
-  <link href="css/screen.css" rel="stylesheet" type="text/css" media="screen" />
-  <link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+  <link href="<?php get_template_directory_uri(); ?>/css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="<?php get_template_directory_uri(); ?>/css/print.css" rel="stylesheet" type="text/css" media="print" />
 
   <?php wp_head(); ?>
 </head>
