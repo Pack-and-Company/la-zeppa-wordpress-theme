@@ -37,6 +37,7 @@
       <?php
         $defaults = array(
           'theme_location' => 'primary',
+          'fallback_cb' => 'wp_page_menu',
           'container' => false
         );
         wp_nav_menu( $defaults );
