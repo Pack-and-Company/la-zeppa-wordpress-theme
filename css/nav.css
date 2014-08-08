@@ -27,7 +27,8 @@
 	font-weight:bold;
 }
 	
-#nav li {
+#nav li,
+#nav li a {
 	float: left;
 	margin: 0;
 	padding: 0 22px;
@@ -43,8 +44,7 @@
 	color: #fff;	
 	padding: 0 22px;
 	background: url(../images/nav_bg_over.jpg) repeat-x top left; 
-
-	}
+}
 	
 #nav li.current-menu-item {
 	color: #222;	
