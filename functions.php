@@ -22,7 +22,7 @@ function the_post_thumbnail_caption() {
   $thumbnail_image = get_posts(array('p' => $thumbnail_id, 'post_type' => 'attachment'));
 
   if ($thumbnail_image && isset($thumbnail_image[0])) {
-    echo '<span>'.$thumbnail_image[0]->post_excerpt.'</span>';
+    echo '<p>'.$thumbnail_image[0]->post_excerpt.'</p>';
   }
 }
 
