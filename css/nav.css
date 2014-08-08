@@ -25,8 +25,7 @@
 	list-style-type: none;
 	background: none;
 	font-weight:bold;
-
-	}
+}
 	
 #nav li {
 	float: left;
@@ -36,44 +35,46 @@
 	line-height:36px;
 	list-style-type:none;
 	letter-spacing:1px;
-	}
+}
 	
 #nav  li a {
 	float: left;	
-	padding: 0px 22px;
+	padding: 0 22px;
 	text-decoration: none;
 	color: #D0A26F;
 	background: none;
-	}
+}
+
 #nav  li a:hover {
 	color: #fff;	
-	padding: 0px 22px;
+	padding: 0 22px;
 	background: url(../images/nav_bg_over.jpg) repeat-x top left; 
-
-	}
+}
 	
-#nav  li.current {
+#nav  li.current-menu-item {
 	color: #222;	
-	padding: 0px 22px;
+	padding: 0 22px;
 	background:#fff; 
-	}
+}
 	
 #nav  li.hmactive {
 	color:  #D0A26F;
 	background: url(../images/nav_bg_over.jpg) repeat-x top left; 
-	padding: 0px 22px;
-	}	
-	#nav  li.hmactive a{
+	padding: 0 22px;
+}	
+
+#nav  li.hmactive a{
 	color: #D0A26F;
 }
 	
 #nav  li.active {
 	color:  #D0A26F;
 	background:#fff; 
-	}	
-	#nav  li.active a{
+}
+
+#nav  li.active a{
 	color: #D0A26F;	
-	padding: 0px 25px;
+	padding: 0 25px;
 	background:#fff
 }
 
