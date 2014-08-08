@@ -1,0 +1,104 @@
+/*  css for La Zeppa 
+=========================================
+	Title:			La Zeppa 
+	Created by: 	dave@netsphere.co.nz
+	Stylesheet:	 	Printer
+========================================
+*/
+
+body {
+   background: white;
+   font-size: 12pt;
+   }
+h1 {
+	font-size: 14pt;
+	font-weight: bold;
+	color:#000;
+}
+
+h2 {
+	font-size: 12pt;
+	font-weight: bold;
+	color:#000;
+}
+
+h3 {
+	font-size: 10pt;
+	font-weight: bold;
+	color:#000;
+}
+
+img {
+	border: 0;
+	padding: 5px;
+	display:block;
+}
+
+.web_logo {
+	display:none;
+}
+
+.print_logo {
+	text-align: center;
+	display:block;
+	padding-left:100pt;
+}
+
+
+#header, #navmenu, #subnavmenu, #footer,  #contentright{
+	display: none;
+	}
+	
+#address {
+	margin-left: 10%;
+   padding-top: 1em;
+   border-top: 1px solid #000;
+}
+#address li {
+	font-size:10pt;
+	font-weight:normal;
+	line-height:18pt;
+	margin:0;
+	padding:0;
+
+}
+	
+#contentmain, #contentarea {
+   width: auto;
+   margin: 0 5%;
+   padding: 0;
+   border: 0;
+   float: none !important;
+   color: black;
+   background: transparent none;
+   }
+div#contentmain {
+   margin-left: 10%;
+   padding-top: 1em;
+   border-top: 1px solid #000;
+   }
+
+a:link, a:visited {
+   color: #520;
+   background: transparent;
+   font-weight: bold;
+   text-decoration: underline;
+   }
+#contentarea a:link:after, #contentarea a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+   }
+#contentarea a[href^="/"]:after {
+   content: " (http://www.fencible.org.nz" attr(href) ") ";
+   }
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 10pt;
+	color: #000;
+	text-align:left;
+}
+
+ div.hr {
+  display:none;
+}
