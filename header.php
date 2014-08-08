@@ -48,5 +48,3 @@
     <!-- content -->
     <div id="content">
     
-      <!-- content left (main content column) -->
-      <div id="content_left">

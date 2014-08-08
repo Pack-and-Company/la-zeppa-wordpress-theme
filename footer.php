@@ -1,9 +1,3 @@
-</div>
-<!-- end of content left (main content column) -->
-<!-- sidebar -->
-<div id="sidebar">
-</div>
-<!-- end of sidebar -->
 
 <div class="clearFrame"></div>
 </div>
