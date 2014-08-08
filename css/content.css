@@ -383,3 +383,10 @@ blockquote {
 	width: 530px;
 	height: 680px;
 }
+
+.tiled-gallery {
+	padding-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
