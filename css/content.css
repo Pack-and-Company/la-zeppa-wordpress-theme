@@ -1,0 +1,375 @@
+@charset "iso-8859-1";
+/*  css for La Zeppa 
+=========================================
+	Title:			La Zeppa 
+	Created by: 	dave@netsphere.co.nz
+	Modified by:	tom@pack.co.nz
+	Stylesheet:	 	content
+========================================
+*/
+
+
+
+/* --------- main  --------- */
+html, body {
+	height: 100%;
+}
+
+body {
+	padding:0;
+	margin:0 auto;
+	font-family:Arial, Helvetica, sans-serif;
+	background:#fff url(../images/page_bg.png) repeat-y top center; 
+
+}
+
+
+h1 {
+
+	font-size:24px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	color:#733700;
+	padding:30px 0 10px 40px;
+	margin:0;
+	letter-spacing:1px;
+	line-height:30px;
+
+}
+
+h2 {
+	font-size:20px;
+	font-weight:normal;
+	line-height:22px;
+	/* color: #096D9D; */
+	color:#b46506;
+	padding:10px 0 0 40px;
+	margin:0;		
+	font-family:Georgia, "Times New Roman", Times, serif;
+	clear:both;
+}
+
+h3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:17px;
+	font-weight:normal;
+	/* color: #2299d5; */
+	color: #b36405;
+	padding:15px 0 5px 40px;
+	line-height:20px;
+}
+
+h4 {
+	font-size:13px;
+	font-weight:bold;
+	color: #555;
+	padding:0 0 5px 40px;
+	margin:0;
+
+}
+
+h5 {
+	font-weight:normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background:#f5f5f5;
+	color: #733700;
+	font-size:13px;
+	line-height:20px;
+	border-bottom: 1px dashed #ddd;
+	padding:2px;
+	margin: 0px 0px 0px 60px;
+	padding:3px 3px 2px 2px;
+	letter-spacing:1px;
+}
+
+p {
+	color:#222;
+	font-size:14px;
+	line-height:22px;
+	padding:5px 10px 4px 40px;
+
+}
+
+em {
+
+	font-style: italic;
+
+}
+
+span .error {
+    color: red;
+}
+
+ul, ol {
+	color:#424242;
+	font-size:13px;
+	list-style-type:circle;
+	padding:5px 0 10px 100px;
+}
+
+ol {
+	list-style-type:decimal;
+	line-height:18px;
+	padding-bottom:3px;
+}
+
+li {
+	line-height:18px;
+	padding-bottom:3px;
+}
+
+#content #photogallery a {
+    border: none;
+}
+
+#content a:link { color:#733700; text-decoration:none;}
+#content a:visited { color:#733700; text-decoration:none; border-bottom: 1px dashed #733700;}
+#content a:active { color:#733700; text-decoration:none; border-bottom: 1px dashed #733700;}
+#content a:hover { color:#733700; text-decoration:none; border-bottom: 1px dashed #733700;}
+
+/* --------- content  --------- */
+
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -106px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.push {
+	height: 95px;
+}
+
+#content_wrapper {
+	width:950px;
+	margin: 0 auto; 
+	padding:0;
+	background:#fff;
+	text-align:left;
+}
+
+.push {
+	height: 106px;
+}
+
+
+#header {
+	width:950px;
+	height:123px;
+	margin:0 auto;
+	padding:0;
+	background:#fff  url(../images/header_home.png) no-repeat top left; 
+}
+
+	
+#content {
+	width:950px;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+	background:#fff; 
+	
+}
+		
+	
+#content_left {
+	width:570px;
+	margin:0;
+	padding:0;
+	float:left;
+	text-align:left;
+	background:#fff;
+}	
+
+#sidebar {
+	width:310px;
+	float:right;
+	padding:30px 30px 0 0px;
+	margin:0;
+	text-align:left;
+	background:#fff;
+}
+
+#google {
+	clear:both;
+	float:right;
+	top:0;
+	padding:75px 15px 0 0;		
+}
+
+input {
+	background:#fff;
+	border:1px solid #ccc;
+	color: #333;
+} 
+
+
+/* --------- footer  --------- */
+
+#footer{
+	clear:both;
+	width:950px;
+	margin:0 auto;
+	text-align:left;
+	padding:5px 0 0 0;
+	height: 136px;
+	background: #000  url(../images/footer_bg.png) no-repeat bottom left;
+}
+
+
+#footer ul {
+	margin:2px 0 0 40px;
+	padding:0;
+}
+#footer li {
+	margin:0;
+	padding:0;	
+	color:#fff;
+	line-height:20px;
+}
+
+#footer p{
+	color:#ccc;
+	letter-spacing:1px;
+	text-align:right;
+	margin:8px 15px 0 0;
+	font-size:13px;
+}
+
+
+
+#footerlinks {
+	margin-left:0px;
+	padding:0px 0px 0px 10px;
+}
+
+#footerlinks li {
+	display:inline;
+	margin:0;
+	padding: 15px 20px 0 0px;
+	font-size:11px;
+	letter-spacing:1px;
+	text-align:left;
+}
+
+#footerlinks img {
+	padding: 0px;
+	padding-top: 15px;
+}
+
+#footerlinks li a:link {text-decoration: none; color: #fff;}
+#footerlinks li a:visited {text-decoration: none;	color: #fff;}
+#footerlinks li a:hover { color:#926931;}
+#footerlinks li a:active {text-decoration: none; color: #fff;}
+
+#footerlinks li.sml {
+	display:inline;
+	padding: 0px 10px 0 0;
+	margin:3px 0 0 0;
+	font-size:10px;
+	letter-spacing:1px;
+	text-align:left;
+}
+
+
+
+#footerlinks li.sml a:link {text-decoration: none; color:  #6b4713; }
+#footerlinks li.sml a:visited {text-decoration: none;	color:  #6b4713;} 
+#footerlinks li.sml a:hover { color:#f6f6f6; text-decoration: none; border-bottom:0;}
+#footerlinks li.sml a:active {text-decoration: none; color:  #6b4713; }
+
+
+
+/* --------- tables  --------- */
+
+table {
+	margin:0px 0px 0px 60px;
+	padding:0px;
+	color:#444;
+}
+
+tr.featured {
+	color: #733700;
+}
+
+td {
+	padding:3px 3px 2px 2px;
+	font-size:13px;
+	line-height:20px;
+	border-bottom: 1px dashed #ddd;
+}
+
+.tblHeader {
+	font-weight:normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background:#f5f5f5;
+	color: #733700;
+	letter-spacing:1px;
+	font-size:16px;
+	margin:0;
+	line-height:40px;
+}
+
+/* --------- misc  --------- */
+
+
+.photogallery {
+	text-align:center;
+	width:700px;
+	margin:45px auto;
+}
+
+.photogallery img {
+	padding:10px;
+}
+
+
+
+.clearFrame {
+	clear:both;
+	padding-bottom:30px;
+}
+
+.picleft {
+	float:left;
+	padding:5px 10px 0 0;	
+}
+
+.picright {
+	float:right;
+	padding:12px 0px 0 12px;	
+}
+
+strong {
+	font-weight:bold;
+}
+
+
+.quote {
+	width:305px;
+	height:140px;
+	background: url(../images/quote.gif) no-repeat left top  ; 
+	margin:0 auto 30px auto;
+	font-size:13px;
+	
+}
+blockquote {
+	font-style:normal;
+	color:#555;
+	padding:25px;
+	letter-spacing:1px;
+	line-height:18px;}
+
+.imgleft {
+	padding:5px;
+	border:1px solid #999;
+	float:left;
+	margin-top:10px;
+}
+
+.imgblock {
+	padding:5px;
+	border:1px solid #999;
+	display:block;
+	margin-top:10px;
+}
