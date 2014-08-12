@@ -51,7 +51,7 @@ function xmlToArray($xml,$ns=null){
 $xmlPath = "http://www.mukuna.co.nz/getEvents.mkna?c=cu1b94xsv5&m=x";
 libxml_use_internal_errors(true); // Suppress xml parsing errors
 $xml = new SimpleXmlIterator($xmlPath, null, true);
-$eventsData = xmlToArray($xml,$namespaces);
+$eventsData = xmlToArray($xml);
 
 date_default_timezone_set("Pacific/Auckland");
 $month = "";
