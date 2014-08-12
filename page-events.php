@@ -121,6 +121,9 @@ print "</table>\n";
 		the_post_thumbnail_caption();
 	}
 	?>
+	<a href="http://mukuna.co.nz/auckland/freemans-bay/la-zeppa.htm">
+		<img id="mukuna" src="<?=get_template_directory_uri();?>/images/powered-by-mukuna-100pxl-7k.gif" alt="Powered by Mukuna" />
+	</a>
 </div>
 <!-- end of sidebar -->
 
