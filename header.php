@@ -16,6 +16,7 @@
   
   <link href="<?=get_template_directory_uri();?>/css/screen.css" rel="stylesheet" type="text/css" media="screen" />
   <link href="<?=get_template_directory_uri();?>/css/print.css" rel="stylesheet" type="text/css" media="print" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
 
   <?php wp_head(); ?>
 </head>
