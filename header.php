@@ -4,10 +4,10 @@
   <meta charset="<?php bloginfo( 'charset' ); ?>" />
   <title>
     <?php
-      if( ! is_home() ):
-        wp_title( '|', true, 'right' );
-      endif;
       bloginfo( 'name' );
+      if( ! is_home() ):
+        wp_title( '|', true, 'left' );
+      endif;
     ?>
   </title>
   <meta name="verify-v1" content="Nwq9KZmKC6BRThnw0RrGrWYo9mshW9M6FCkM9hbObaQ=" />
