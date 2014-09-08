@@ -194,6 +194,11 @@ li {
 	padding: 5px 10px 4px 0;
 }
 
+#sidebar img {
+	max-width: 300px;
+	height: auto;
+}
+
 #google {
 	clear:both;
 	float:right;
