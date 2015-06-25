@@ -12,7 +12,7 @@
 
 <!-- footer -->
 <div id="footer">
-	<p>33 Drake St Freemans Bay Auckland : Tel. 09 379-8167 : Open Monday to Thursday from 4pm, Friday to Sunday from 12pm.</p>
+	<p>33 Drake St Freemans Bay Auckland : Tel. 09 379-8167<br />Open Tuesday to Thursday from 4pm, Friday from 12pm, Saturday from 3pm, Sunday from 12pm.</p>
 	<div id="footerlinks">
       <ul>
 	    <?php
